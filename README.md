@@ -1,16 +1,10 @@
 # Portfolio-Website
 
-A Windows 95-inspired personal portfolio for Pranit Dhanade, rebuilt as a static React frontend for GitHub Pages.
-
-## Stack
-
-- React frontend
-- Tiny Node.js build script that copies static files to `dist/`
-- Plain CSS only
-- No Tailwind CSS
-- No Next.js server/runtime
+Windows 95-inspired portfolio for Pranit Dhanade, built with Next.js 15, TypeScript, Tailwind CSS, Framer Motion, GSAP, Lenis, and Three.js.
 
 ## Deployment target
+
+GitHub Pages URL:
 
 <https://pranitdhanade-sys.github.io/Portfolio-Website/>
 
@@ -24,7 +18,7 @@ npm run dev
 ## Production build
 
 ```bash
-npm run build
+NEXT_PUBLIC_GITHUB_PAGES=true npm run build
 ```
 
-The production build is emitted to `dist/` and deployed by `.github/workflows/deploy.yml`.
+The static export is emitted to `out/` and deployed by `.github/workflows/deploy.yml`.

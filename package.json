@@ -1,0 +1,10 @@
+{
+  "homepage": "https://pranitdhanade-sys.github.io/Portfolio-Website/",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev-server.mjs",
+    "build": "node scripts/build.mjs"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Pranit Dhanade — Machine Learning Engineer, AI Researcher, and Computer Science Student building intelligent systems with LLMs, computer vision, multi-agent systems, and deep learning." />
+  <meta name="keywords" content="Pranit Dhanade, Machine Learning Engineer, AI Researcher, LLMs, Computer Vision, PyTorch, TensorFlow, Pune" />
+  <meta name="author" content="Pranit Dhanade" />
+  <meta name="theme-color" content="#050505" />
+  <meta property="og:title" content="Pranit Dhanade — Building Intelligent Systems" />
+  <meta property="og:description" content="Premium portfolio of Pranit Dhanade, focused on LLMs, Computer Vision, Multi-Agent Systems, and Deep Learning." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/images/og-card.svg" />
+  <meta property="og:url" content="https://pranitdhanade-sys.github.io/Portfolio-Website/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <title>Pranit Dhanade — Machine Learning Engineer</title>
+  <link rel="preconnect" href="https://api.github.com" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+  <div class="loader" id="loader"><div class="loader-mark">PD</div><div class="loader-line"><span></span></div></div>
+  <div class="progress" id="progress"></div>
+  <div class="cursor" id="cursor"></div><div class="cursor-follower" id="cursorFollower"></div>
+  <canvas id="heroCanvas" aria-hidden="true"></canvas>
+  <div class="noise" aria-hidden="true"></div><div class="spotlight" id="spotlight" aria-hidden="true"></div>
+
+  <nav class="dock" aria-label="Primary navigation">
+    <a href="#hero" aria-label="Home">⌂</a><a href="#about" aria-label="About">◌</a><a href="#skills" aria-label="Skills">✦</a><a href="#projects" aria-label="Projects">▣</a><a href="#research" aria-label="Research">◎</a><a href="#github" aria-label="GitHub">⌘</a><a href="#contact" aria-label="Contact">✉</a>
+  </nav>
+
+  <main>
+    <section class="hero section" id="hero">
+      <div class="hero-orb orb-one"></div><div class="hero-orb orb-two"></div>
+      <p class="eyebrow reveal">Pune, Maharashtra, India · AI Systems Portfolio</p>
+      <h1 class="headline split" data-text="Building Intelligent Systems.">Building Intelligent Systems.</h1>
+      <p class="subheadline reveal delay-1">Machine Learning Engineer, AI Researcher, and Computer Science Student focused on LLMs, Computer Vision, Multi-Agent Systems, and Deep Learning.</p>
+      <div class="hero-actions reveal delay-2"><a class="btn magnetic primary" href="#projects">View Projects</a><a class="btn magnetic ghost" href="#contact">Contact Me</a></div>
+      <div class="hero-meta reveal delay-3"><span>LLMs</span><span>Computer Vision</span><span>Deep Learning</span><span>AI Agents</span></div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-kicker">About</div><div class="section-head"><h2>Designed for research velocity and engineering depth.</h2><p>I build intelligent systems that combine rigorous ML foundations with polished product thinking.</p></div>
+      <div class="about-grid">
+        <article class="glass-card profile-card reveal"><p class="label">Profile</p><h3>Pranit Dhanade</h3><p>B.Tech Computer Science<br/>Vishwakarma Institute of Technology<br/>Expected 2029</p><div class="location">📍 Pune, Maharashtra, India</div></article>
+        <div class="interest-cloud reveal delay-1" aria-label="Research interests"><span>Machine Learning</span><span>Deep Learning</span><span>NLP</span><span>Computer Vision</span><span>Multi-Agent Systems</span><span>Optimization</span><span>Large Language Models</span></div>
+        <div class="mini-timeline reveal delay-2"><div><strong>01</strong><p>Mathematical ML foundations</p></div><div><strong>02</strong><p>Research prototypes and experiments</p></div><div><strong>03</strong><p>Production-ready AI applications</p></div></div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills"><div class="section-kicker">Skills</div><div class="section-head"><h2>Full-stack AI engineering toolkit.</h2><p>From CUDA-adjacent systems work to transformer applications and cloud-native backends.</p></div><div class="skills-grid" id="skillsGrid"></div></section>
+
+    <section class="section projects" id="projects"><div class="section-kicker">Projects</div><div class="section-head"><h2>Premium experiments with real technical substance.</h2><p>Interactive project cards with focus areas, feature breakdowns, and implementation stacks.</p></div><div class="project-grid" id="projectGrid"></div></section>
+
+    <section class="section research" id="research"><div class="section-kicker">Research</div><div class="section-head"><h2>Connected research map.</h2><p>Research interests visualized as a living graph of adjacent ideas.</p></div><div class="research-panel glass-card"><canvas id="researchCanvas" aria-label="Animated research node graph"></canvas></div></section>
+
+    <section class="section github" id="github"><div class="section-kicker">GitHub</div><div class="section-head"><h2>Open-source activity, live from GitHub.</h2><p>Dynamic repository and profile statistics for <strong>pranitdhanade-sys</strong>.</p></div><div class="github-grid"><article class="stat glass-card"><span class="counter" data-target="70" id="repoCount">70+</span><p>Repositories</p></article><article class="stat glass-card"><span class="counter" data-target="0" id="followerCount">—</span><p>Followers</p></article><article class="stat glass-card"><span class="counter" data-target="0" id="starCount">—</span><p>Stars</p></article></div><div class="repo-list" id="repoList" aria-live="polite"></div></section>
+
+    <section class="section timeline" id="timeline"><div class="section-kicker">Timeline</div><div class="section-head"><h2>A trajectory through intelligent systems.</h2><p>Scroll-revealed milestones across AI, systems, and data.</p></div><div class="vertical-timeline" id="timelineList"></div></section>
+
+    <section class="section contact" id="contact"><div class="section-kicker">Contact</div><div class="section-head"><h2>Let’s build what comes next.</h2><p>Reach out for research collaborations, AI product ideas, or engineering opportunities.</p></div><div class="contact-grid"><div class="contact-links glass-card reveal"><a href="mailto:pranitdhanade@example.com">Email</a><a href="https://github.com/pranitdhanade-sys" target="_blank" rel="noopener">GitHub</a><a href="https://www.linkedin.com/in/pranit-dhanade/" target="_blank" rel="noopener">LinkedIn</a></div><form class="contact-form glass-card reveal delay-1" id="contactForm" novalidate><label>Name<input name="name" type="text" required minlength="2" placeholder="Ada Lovelace" /></label><label>Email<input name="email" type="email" required placeholder="ada@example.com" /></label><label>Message<textarea name="message" required minlength="10" placeholder="Tell me about your idea..."></textarea></label><button class="btn primary magnetic" type="submit">Send Message</button><p class="form-status" id="formStatus"></p></form></div></section>
+  </main>
+  <footer><p>© <span id="year"></span> Pranit Dhanade. Built with HTML, CSS, and Vanilla JavaScript.</p></footer>
+  <script src="js/particles.js" defer></script><script src="js/cursor.js" defer></script><script src="js/github.js" defer></script><script src="js/animations.js" defer></script><script src="js/main.js" defer></script>
+</body>
+</html>
